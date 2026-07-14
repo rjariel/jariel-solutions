@@ -34,8 +34,21 @@ proposal, designing a screen, or reviewing code, you have failed to route.
 Raw user request. No upstream agent.
 
 ## Outputs (produces)
-A brief.md per routed task, written to the receiving agent's working path.
-A one-line routing decision with rationale.
+A brief.md per routed task, written to a unique, non-overwriting path:
+
+    projects/{client-slug}/{YYYY}/{artifact}-{type}.md
+
+- {client-slug}: lowercase, hyphenated client name (e.g. "dark-horse").
+  If unknown at intake, use "prospect-{YYYY-MM-DD}".
+- {YYYY}: current year.
+- {artifact}-{type}: e.g. "brief-discovery", "brief-strategy".
+
+Rules:
+- NEVER write to a bare "brief.md". Every brief is uniquely named.
+- Before writing, create the folder: mkdir -p projects/{client-slug}/{YYYY}
+- If a file with the target name exists, append "-v2", "-v3" — never overwrite.
+
+Also produce a one-line routing decision with rationale.
 
 ## Handoff (passes brief.md to)
 Any agent. Every brief must name: objective, inputs, constraints, acceptance
