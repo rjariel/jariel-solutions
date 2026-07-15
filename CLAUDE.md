@@ -95,6 +95,28 @@ When solving problems, prioritize in this order:
 
 ---
 
+## Simplicity — the gate
+
+Complexity is a cost paid by whoever comes next. It is argued for, never
+assumed. The burden of proof sits on the addition, not the omission.
+
+- Default to the smallest thing that does the job.
+- Every addition — a section, a gate, an abstraction, a dependency, a file —
+  must name what breaks without it. If nothing breaks, cut it.
+- Adding is easy and hard to reverse. Bias to subtract.
+- A system nobody finishes is a failed deliverable regardless of its quality.
+- Prefer one artifact used every time over three used occasionally.
+
+**Test before shipping:** could this do the same job at half the size? If yes,
+it is not done.
+
+This gate binds every agent, including when the agent is proud of the work. It
+targets invented structure, not captured reality — a checklist that records what
+exists is not complexity. "Half the size" is a prompt, not a law: it demands the
+size be justified, it does not assume small wins.
+
+---
+
 ## Success Criteria — the filter
 
 Every deliverable must measurably improve at least one criterion below. If a
@@ -118,8 +140,7 @@ Every `brief.md` names which criterion it moves and the metric it targets.
 
 ## Design Principles
 
-Design should be: clean, modern, purposeful, accessible, professional. Avoid
-unnecessary complexity.
+Design should be: clean, modern, purposeful, accessible, professional.
 
 ## Engineering Principles
 
