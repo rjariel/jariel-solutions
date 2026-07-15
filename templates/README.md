@@ -8,6 +8,8 @@ ad-hoc when a template exists.
 - Templates are **read-only sources**. Copy to `projects/{client-slug}/{YYYY}/`,
   never edit in place.
 - `{{PLACEHOLDER}}` = replace. `____` = fill during the session.
+- `<!-- TEMPLATE INSTRUCTIONS -->` blocks are addressed to whoever instantiates
+  the template. Delete them in the instance. They are never part of the artifact.
 - Sections marked *internal* are stripped before anything reaches a client.
 - A template that no longer matches how work actually runs is a defect. Fix the
   template, not the copy.
