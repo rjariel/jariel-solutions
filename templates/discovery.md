@@ -206,6 +206,9 @@ justification before Go.
 
 Count: `___` · Justification if ≥2: `____`
 
+A count of 0 is only meaningful if the list was actually worked. If discovery
+has not happened, §8 is **PENDING**, not 0 — an unasked list is not a clean one.
+
 ---
 
 ## 9 · Go / No-Go
@@ -227,7 +230,7 @@ requires at least one FAIL — you cannot decline a client you have not asked.
 | 5 | Content readiness | PASS / FAIL / PENDING | |
 | 6 | Hidden scope | PASS / FAIL / PENDING | |
 | 7 | Success definition | PASS / FAIL / PENDING | |
-| 8 | Red flag count | `___` | |
+| 8 | Red flag count | `___` / PENDING | |
 
 **Verdict:** GO / NO-GO / CONDITIONAL
 
