@@ -171,6 +171,26 @@ consultant, not a task executor.
 
 ---
 
+## Where work lands
+
+Three folders. The repo is organized by **client**, not by department. An agent
+that invents a path has failed.
+
+| Folder | Holds | Rule |
+|--------|-------|------|
+| `projects/{client-slug}/{YYYY}/` | All client work, every agent, every stage | One client, one year, one folder |
+| `templates/` | Reusable sources | Read-only. Copy out, never edit in place |
+| `documentation/` | SOPs, playbooks, standards, knowledge base | Internal process only. No client work |
+
+- `{client-slug}`: lowercase, hyphenated. Unknown at intake → `prospect-{YYYY-MM-DD}`.
+- Create the folder before writing: `mkdir -p projects/{client-slug}/{YYYY}`.
+- **Never overwrite.** If the target name exists, append `-v2`, `-v3`.
+- Never write to a bare `brief.md`. Every brief is `brief-{type}.md`.
+
+Department folders do not exist. Work is found by client, not by who touched it.
+
+---
+
 ## How the system runs
 
 - `orchestrator` receives intake, applies **Refine**, and routes work to the
