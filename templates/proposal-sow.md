@@ -1,0 +1,284 @@
+# Proposal & Statement of Work — {{CLIENT_NAME}}
+
+> **Owner:** `business` agent · **Requires:** a GO verdict in `discovery.md`
+> Copy to `projects/{client-slug}/{YYYY}/proposal.md`. Never write a proposal from
+> a call. Write it from the discovery document.
+>
+> **Positioning check before sending.** This document must read as an independent
+> partner delivering agency-grade craftsmanship through efficient systems. Not a
+> freelancer quoting hours. Not an agency performing scale it does not have. If a
+> section reads like either, rewrite it.
+
+---
+
+## 0 · Record — internal, strip before sending
+
+| Field | Value |
+|-------|-------|
+| Client | |
+| Proposal version | v1 / v2 / v3 |
+| Prepared by | |
+| Date | |
+| Valid until | (30 days default) |
+| Discovery reference | `projects/{client-slug}/{YYYY}/discovery.md` |
+| Signer | |
+| Internal margin check | Pass / Fail |
+
+### Success criteria mapping — mandatory
+
+Every proposal names which of the six criteria it moves, for **us**, with a
+metric. This is not the client's success metric — that lives in §2. This is the
+justification for the work existing at all. If no row can be filled, the proposal
+should not be sent.
+
+| Criterion | Does this project move it? | Metric | Target |
+|-----------|---------------------------|--------|--------|
+| Client experience | Yes / No | | |
+| Internal efficiency | Yes / No | | |
+| Consistency | Yes / No | | |
+| Quality | Yes / No | | |
+| Scalability | Yes / No | | |
+| Business growth | Yes / No | | |
+
+Primary criterion: `____` · Reasoning: `____`
+
+---
+
+## 1 · The Problem
+
+*Client-facing. Their words first, our diagnosis second. If they do not recognise
+themselves in this section, the discovery was thin — go back.*
+
+You told us: `{{stated request, verbatim}}`
+
+What we found underneath it: `{{root problem}}`
+
+The evidence: `{{evidence from discovery §1}}`
+
+Left alone for twelve months, this costs you: `{{cost of inaction}}`
+
+---
+
+## 2 · What Success Looks Like
+
+*One metric. Baseline and target. Everything in this proposal exists to move it.*
+
+| | |
+|---|---|
+| Primary metric | |
+| Where it sits today | |
+| Where it needs to be | |
+| By when | |
+| How it gets measured, and by whom | |
+
+Secondary outcomes: `____`
+
+---
+
+## 3 · Approach
+
+*Structured through REY. Three paragraphs, not three pages.*
+
+**Refine** — `{{what we clarify, challenge, and simplify before building}}`
+
+**Execute** — `{{how we design and build: platform, standards, accessibility floor,
+performance targets}}`
+
+**Yield** — `{{how we validate, measure, and improve after launch}}`
+
+**Platform recommendation:** `____`
+**Why this and not the alternative:** `____`
+
+---
+
+## 4 · Scope
+
+### In scope
+
+| # | Deliverable | Description | Acceptance criteria | Owner |
+|---|-------------|-------------|---------------------|-------|
+| 1 | | | | |
+| 2 | | | | |
+| 3 | | | | |
+
+### Explicitly out of scope
+
+*The most valuable section in this document. Everything from discovery §6 marked
+"not present" belongs here in writing.*
+
+| # | Excluded | Why | Available separately? |
+|---|----------|-----|----------------------|
+| 1 | | | Yes — see §8 / No |
+| 2 | | | |
+| 3 | | | |
+
+### Assumptions
+
+Priced on the basis of the following. If any prove false, §9 applies.
+
+1. `____`
+2. `____`
+3. `____`
+
+---
+
+## 5 · Phases & Timeline
+
+| Phase | Work | Duration | Depends on | Client action required | Milestone |
+|-------|------|----------|------------|------------------------|-----------|
+| 1 · Refine | Discovery sign-off, requirements, architecture | | — | Kickoff attendance | Approved scope |
+| 2 · Design | Wireframes, UI direction, design system | | Phase 1 + content | Design approval | Approved designs |
+| 3 · Build | Development, integrations, CMS | | Phase 2 | Content delivery | Staging build |
+| 4 · Test | QA gate — functional, responsive, a11y, SEO, performance | | Phase 3 | UAT | QA sign-off |
+| 5 · Launch | Deploy, DNS, monitoring, handover | | Phase 4 | Go-live approval | Live |
+| 6 · Yield | Measurement, improvement recommendations | | Phase 5 | — | Impact report |
+
+**Start:** `____` · **Launch target:** `____`
+
+Timeline holds while client-side actions in the table above land on time. Slips
+in those actions move the launch date by the same duration — see §7.
+
+---
+
+## 6 · Investment
+
+| Phase / Deliverable | Investment |
+|---------------------|------------|
+| | |
+| | |
+| **Total** | **{{currency}} ____** |
+
+**Payment schedule**
+
+| Trigger | % | Amount |
+|---------|---|--------|
+| On signature | 50% | |
+| On design approval | 25% | |
+| On launch | 25% | |
+
+- Terms: net `__` days from invoice.
+- Late payment: work pauses at `__` days overdue. Schedule adjusts accordingly.
+- Excludes third-party costs (licenses, hosting, plugins, stock, fonts) — listed
+  in §8 where known.
+
+**Optional — ongoing partnership**
+
+| Option | Includes | Monthly |
+|--------|----------|---------|
+| Care | Updates, backups, monitoring, `__`h support | |
+| Partner | Care + `__`h strategy & improvement | |
+
+---
+
+## 7 · What We Need From You
+
+*Named people, named dates. A responsibility without an owner is a delay with a
+future date.*
+
+| # | We need | Owner | Due | If late |
+|---|---------|-------|-----|---------|
+| 1 | Content and copy per discovery §5 | | | Launch moves day-for-day |
+| 2 | Brand assets (vector logo, guidelines) | | | Design phase blocked |
+| 3 | Platform / hosting / analytics access | | | Build phase blocked |
+| 4 | Feedback consolidated to one voice | | `__`-day turnaround | Timeline extends |
+| 5 | Approval at each milestone | | | Next phase does not start |
+
+Review protocol: feedback arrives consolidated, in one pass, from the named
+contact. Contradictory feedback from multiple reviewers is returned for
+resolution before we act on it.
+
+---
+
+## 8 · Third-Party Costs
+
+| Item | Purpose | Cost | Billed by | Recurring? |
+|------|---------|------|-----------|------------|
+| | | | Client direct / Via us | |
+
+---
+
+## 9 · Change Control
+
+Scope changes are normal. Unmanaged scope changes are not.
+
+1. Any request outside §4 gets logged as a change request.
+2. We return impact — cost, timeline, and any knock-on effects — within `__`
+   business days.
+3. Work starts on written approval. No approval, no work, no invoice.
+4. Approved changes append to this SOW as a numbered amendment.
+
+| # | Date | Change | Cost impact | Timeline impact | Approved by |
+|---|------|--------|-------------|-----------------|-------------|
+| | | | | | |
+
+---
+
+## 10 · Quality Standard
+
+Not negotiable, not priced separately, not removable to hit a number.
+
+- **Accessibility:** WCAG 2.2 AA floor.
+- **Performance:** Core Web Vitals pass on the templates delivered.
+- **Responsive:** verified across the breakpoint set agreed in Phase 2.
+- **Browsers:** current and previous major version of Chrome, Safari, Firefox, Edge.
+- **QA gate:** nothing ships without QA sign-off. There is no conditional pass.
+- **Code:** readable, modular, documented, handed over in full.
+
+---
+
+## 11 · Acceptance & Sign-Off
+
+Each phase completes on written approval against the acceptance criteria in §4.
+Silence is not approval. Approval not received within `__` business days of
+submission pauses the schedule.
+
+Final acceptance: launch, plus handover documentation delivered and access
+transferred.
+
+Warranty: `__` days post-launch covering defects against the agreed scope.
+Excludes new requests, third-party breakage, and client-side changes.
+
+---
+
+## 12 · Terms
+
+- IP transfers to the client on final payment. Until then it stays ours.
+- We retain the right to display the work in our portfolio unless §12 is amended.
+- Client warrants it holds rights to all supplied content and assets.
+- Either party may terminate with `__` days written notice. Work completed to the
+  termination date is invoiced and payable.
+- Neither party is liable for indirect or consequential loss. Our aggregate
+  liability caps at fees paid.
+- Governing law: `____`
+
+---
+
+## 13 · Acceptance
+
+Signing accepts the scope in §4, the investment in §6, and the responsibilities
+in §7.
+
+| | Client | Jariel Solutions |
+|---|--------|------------------|
+| Name | | |
+| Title | | |
+| Signature | | |
+| Date | | |
+
+---
+
+## 14 · Handoff — internal, strip before sending
+
+On signature, generate `brief-strategy.md` (or as routed by `orchestrator`).
+
+| brief.md field | Value |
+|----------------|-------|
+| From | `business` |
+| To | |
+| Objective | |
+| Inputs | This SOW + discovery doc + assets |
+| Constraints | Budget §6, timeline §5, out-of-scope §4 |
+| Acceptance criteria | Per deliverable, §4 |
+| Output location | `projects/{client-slug}/{YYYY}/` |
+| Success criteria touched | Per §0 mapping |
+| Metric | Per §0 mapping |
